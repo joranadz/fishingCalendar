@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import CurentTime from './components/clock';
 import 'bootstrap/dist/css/bootstrap.css';
-import SimpleMap from './components/map';
+import SimpleMap from './components/map/';
 
 const dateNow = () => {
     const date = new Date();
