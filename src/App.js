@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import CurentTime from './components/clock'
+import CurentTime from './components/clock';
 import 'bootstrap/dist/css/bootstrap.css';
+import SimpleMap from './components/map';
 
 const dateNow = () => {
     const date = new Date();
@@ -19,6 +20,7 @@ class App extends Component {
                         Žvejybos dienoraštis
                     </p></header>
                 <main>
+                    <SimpleMap/>
                     <div className="card" style={{width: 250}}>
                         <div className="card-body">
                             <input type="date" className="card-title"/>
