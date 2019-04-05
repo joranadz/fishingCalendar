@@ -28,13 +28,20 @@
   }
 }
 .dateTime{
-  font-size: 12px;
-  margin: 0px;
-  padding: 0px;
+  font-size: 14px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
+  background-color: #242209;
 }
 main{
-  display: flex;
-  flex-direction: row;
+
+}
+.table .thead-dark th{
+  background-color: #766f1d;
+  border-color: #766f1d;
+}
+.form-group p{
+  margin: 0px;
+  padding: 0px;
 }
