@@ -27,21 +27,25 @@
     transform: rotate(360deg);
   }
 }
-.dateTime{
+.dateTime {
   font-size: 14px;
   padding: 5px;
   display: flex;
   flex-direction: column;
   background-color: #242209;
 }
-main{
-
-}
-.table .thead-dark th{
+.table .thead-dark {
   background-color: #766f1d;
-  border-color: #766f1d;
 }
-.form-group p{
+.form-group p {
   margin: 0px;
   padding: 0px;
+}
+.form-group {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: #f4f1d1;
+  width: 250px;
+  margin-left: 35%;
 }
