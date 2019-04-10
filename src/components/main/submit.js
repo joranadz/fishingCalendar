@@ -68,20 +68,41 @@ class SubmitData extends Component {
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">1</th>
+                  <th scope="row">
+                    <li className="list-group-item">#1</li>
+                    <li className="list-group-item">#2</li>
+                    <li className="list-group-item">#3</li>
+                  </th>
                   <td>
+                    <li className="list-group-item">2019 04 01</li>
+                    <li className="list-group-item">2019 04 07</li>
+                    <li className="list-group-item">2019 04 08</li>
                     <EnteredItems entries={this.state.data} />
                   </td>
                   <td>
+                    <li className="list-group-item">
+                      Kauno marios (pažaislis)
+                    </li>
+                    <li className="list-group-item">Kauno marios</li>
+                    <li className="list-group-item">Neris (Jonava)</li>
                     <EnteredItems entries={this.state.kur} />
                   </td>
                   <td>
+                    <li className="list-group-item">Plude/batonas</li>
+                    <li className="list-group-item">Plude/batonas</li>
+                    <li className="list-group-item">Plude/sliekas</li>
                     <EnteredItems entries={this.state.koki} />
                   </td>
                   <td>
+                    <li className="list-group-item">nieko</li>
+                    <li className="list-group-item">nieko</li>
+                    <li className="list-group-item">šapaliukas, aukšlės</li>
                     <EnteredItems entries={this.state.ka} />
                   </td>
                   <td>
+                    <li className="list-group-item">0</li>
+                    <li className="list-group-item">0</li>
+                    <li className="list-group-item">~10</li>
                     <EnteredItems entries={this.state.kiek} />
                   </td>
                 </tr>
